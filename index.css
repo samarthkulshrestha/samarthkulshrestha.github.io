@@ -93,7 +93,7 @@ body {
 #middle h2 {
     font-weight: 500;
 }
-#about {
+#design {
     width: 10vw;
     height: 10vw;
     text-align: center;
@@ -146,7 +146,7 @@ body {
     transition: 0.4s ease-in-out;
     border-radius: 100px 100px 0px 0px;
 }
-#about:hover {
+#design:hover {
     background: rgba(255, 50, 50, 0.9);
     cursor: pointer;
 }
@@ -296,6 +296,22 @@ body {
     outline: none;
     border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
+
+#wrapper {
+    max-height: 70vh;
+    display: flex;
+    gap: 1em;
+    overflow-x: auto;
+    padding-bottom: 1em;
+}
+
+#wrapper > .design-imgs {
+    display: block;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+}
+
 ::placeholder {
     color: #fff;
 }
@@ -337,7 +353,7 @@ body {
 }
 
 @media (max-width: 800px) {
-    #about {
+    #design {
         display: none;
     }
     #contact {

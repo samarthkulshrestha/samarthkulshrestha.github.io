@@ -1,31 +1,33 @@
-function showabout() {
+function showdesign() {
     $("#middle").css("opacity", "0");
     $("#work").css("opacity", "0");
-    $("#about").css("opacity", "0");
+    $("#design").css("opacity", "0");
     $("#contact").css("opacity", "0");
 
-    $("#about_container").css("display", "inherit");
-    $("#about_container").addClass("animated slideInLeft");
+    $("#design_container").css("overflow-y", "hidden");
+    $("#design_container").css("display", "inherit");
+    $("#design_container").addClass("animated slideInLeft");
     setTimeout(function () {
-        $("#about_container").removeClass("animated slideInLeft");
+        $("#design").removeClass("animated slideInLeft");
+        $("#design_container").css("overflow-y", "auto");
     }, 800);
 }
-function closeabout() {
+function closedesign() {
     $("#middle").css("opacity", "100");
     $("#work").css("opacity", "100");
-    $("#about").css("opacity", "100");
+    $("#design").css("opacity", "100");
     $("#contact").css("opacity", "100");
 
-    $("#about_container").addClass("animated slideOutLeft");
+    $("#design_container").addClass("animated slideOutLeft");
     setTimeout(function () {
-        $("#about_container").removeClass("animated slideOutLeft");
-        $("#about_container").css("display", "none");
+        $("#design_container").removeClass("animated slideOutLeft");
+        $("#design_container").css("display", "none");
     }, 800);
 }
 function showwork() {
     $("#middle").css("opacity", "0");
     $("#work").css("opacity", "0");
-    $("#about").css("opacity", "0");
+    $("#design").css("opacity", "0");
     $("#contact").css("opacity", "0");
 
     $("#work_container").css("display", "inherit");
@@ -37,7 +39,7 @@ function showwork() {
 function closework() {
     $("#middle").css("opacity", "100");
     $("#work").css("opacity", "100");
-    $("#about").css("opacity", "100");
+    $("#design").css("opacity", "100");
     $("#contact").css("opacity", "100");
 
     $("#work_container").addClass("animated slideOutRight");
@@ -49,7 +51,7 @@ function closework() {
 function showcontact() {
     $("#middle").css("opacity", "0");
     $("#work").css("opacity", "0");
-    $("#about").css("opacity", "0");
+    $("#design").css("opacity", "0");
     $("#contact").css("opacity", "0");
 
     $("#contact_container").css("display", "inherit");
@@ -61,7 +63,7 @@ function showcontact() {
 function closecontact() {
     $("#middle").css("opacity", "100");
     $("#work").css("opacity", "100");
-    $("#about").css("opacity", "100");
+    $("#design").css("opacity", "100");
     $("#contact").css("opacity", "100");
 
     $("#contact_container").addClass("animated slideOutDown");
@@ -76,7 +78,7 @@ setTimeout(function () {
         $("#loading").removeClass("animated fadeOut");
         $("#loading").css("display", "none");
         $("#box").css("display", "none");
-        $("#about").removeClass("animated fadeIn");
+        $("#design").removeClass("animated fadeIn");
         $("#contact").removeClass("animated fadeIn");
         $("#work").removeClass("animated fadeIn");
     }, 1000);

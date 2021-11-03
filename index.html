@@ -59,27 +59,28 @@
                 style="animation-delay: 1.7s;"
             ></div>
         </div>
-        <a
-            id="about"
-            onclick="showabout()"
-            class="animated fadeIn"
-            style="animation-delay: 2.2s;"
-            >about</a
-        >
-        <a
-            id="work"
-            onclick="showwork()"
-            class="animated fadeIn"
-            style="animation-delay: 2.2s;"
-            >work</a
-        >
-        <a
-            id="contact"
-            onclick="showcontact()"
-            class="animated fadeIn"
-            style="animation-delay: 2.2s;"
-            >contact</a
-        >
+        <!-- UNCOMMENT FOR LINKS -->
+        <!-- <a -->
+        <!--     id="design" -->
+        <!--     onclick="showdesign()" -->
+        <!--     class="animated fadeIn" -->
+        <!--     style="animation-delay: 2.2s;" -->
+        <!--     >design</a -->
+        <!-- > -->
+        <!-- <a -->
+        <!--     id="work" -->
+        <!--     onclick="showwork()" -->
+        <!--     class="animated fadeIn" -->
+        <!--     style="animation-delay: 2.2s;" -->
+        <!--     >work</a -->
+        <!-- > -->
+        <!-- <a -->
+        <!--     id="contact" -->
+        <!--     onclick="showcontact()" -->
+        <!--     class="animated fadeIn" -->
+        <!--     style="animation-delay: 2.2s;" -->
+        <!--     >contact</a -->
+        <!-- > -->
         <div
             id="middle"
             class="animated slideInDown"
@@ -93,31 +94,55 @@
             <h2>
                 tech + literature + physics + design enthusiast /
                 <br />
-                fullstack web dev / lifelong student / human (maybe)
+                software developer / lifelong student / human
             </h2>
-            <div id="menu">
-                <a onclick="showabout()">about</a>
-                <a onclick="showwork()">work</a>
-                <a onclick="showcontact()">contact</a>
-            </div>
+            <!-- UNCOMMENT FOR LINKS -->
+            <!-- <div id="menu"> -->
+            <!--     <a onclick="showdesign()">design</a> -->
+            <!--     <a onclick="showwork()">work</a> -->
+            <!--     <a onclick="showcontact()">contact</a> -->
+            <!-- </div> -->
             <table>
                 <tr>
                     <td class="animated zoomIn" style="animation-delay: 2.2s;">
-                        <a class="social"
+                        <a
+                            class="social"
+                            href="mailto:samarthkulshrestha@protonmail.com"
+                            target="_blank"
                             ><i class="fas fa-envelope-open-text"></i
                         ></a>
                     </td>
                     <td class="animated zoomIn" style="animation-delay: 2.4s;">
-                        <a class="social"><i class="fab fa-github"></i></a>
+                        <a
+                            class="social"
+                            href="https://github.com/samarthkulshrestha/"
+                            target="_blank"
+                            ><i class="fab fa-github"></i
+                        ></a>
                     </td>
                     <td class="animated zoomIn" style="animation-delay: 2.6s;">
-                        <a class="social"><i class="fab fa-twitter"></i></a>
+                        <a
+                            class="social"
+                            href="https://twitter.com/zzamarth"
+                            target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
                     </td>
                     <td class="animated zoomIn" style="animation-delay: 2.8s;">
-                        <a class="social"><i class="fab fa-instagram"></i></a>
+                        <a
+                            class="social"
+                            href="https://instagram.com/_zamarth_/"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
                     </td>
                     <td class="animated zoomIn" style="animation-delay: 3s;">
-                        <a class="social"><i class="fab fa-discord"></i></a>
+                        <a
+                            class="social"
+                            href="https://discord.com/users/702168378806370375/"
+                            target="_blank"
+                            ><i class="fab fa-discord"></i
+                        ></a>
                     </td>
                 </tr>
             </table>
@@ -146,65 +171,38 @@
                 <button class="btn_two">button 2</button>
             </section>
         </div>
-        <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>about.</h1>
+        <div id="design_container" class="container">
+            <div onclick="closedesign()"><i class="fas fa-angle-left"></i></div>
+            <h1>design.</h1>
             <section>
-                <h2>about me</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat.
-                </p>
-            </section>
-            <section>
-                <h2>skills</h2>
-                <p>
-                    i do eveything ;)
-                </p>
+                <h2>my designs</h2>
+                <div id="wrapper">
+                    <img
+                        src="./assets/designs/typography.png"
+                        class="design-imgs"
+                        loading="lazy"
+                    />
+                    <img
+                        src="./assets/designs/harder_better_faster_stronger.png"
+                        class="design-imgs"
+                        loading="lazy"
+                    />
+                    <img
+                        src="./assets/designs/runaway.png"
+                        class="design-imgs"
+                        loading="lazy"
+                    />
+                    <img
+                        src="./assets/designs/migraine.png"
+                        class="design-imgs"
+                        loading="lazy"
+                    />
+                    <img
+                        src="./assets/designs/lines.png"
+                        class="design-imgs"
+                        loading="lazy"
+                    />
+                </div>
             </section>
         </div>
         <div id="contact_container" class="container">
