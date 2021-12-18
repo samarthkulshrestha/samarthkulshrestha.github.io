@@ -1,0 +1,73 @@
+---
+title: Samarth Kulshrestha
+author: layman software developer, professional **nerd**
+output:
+    html_document:
+        theme: null
+        highlight: null
+        css: styles.css
+---
+
+## hey, m8s!
+
+Hi, I'm **Sam**arth (he/him), and I love:
+
+- literature
+- tech
+- art
+- design
+- physics
+- math
+- philosophy
+
+My friends think I'm an **obsessive perfectionist ignorant brainy impulsive**
+**awesome brutally-honest versatile anti-social sexy crude clear-sighted**
+**bi-awakener (xD) nerdy** human.
+
+## for the dopes
+
+```
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+class Human:
+
+    def __init__(self):
+        self.name = "Samarth Kulshrestha"
+        self.nickname = "sam"
+        self.pronouns = ["he", "him"]
+        self.interests = ["literature", "tech", "art", "design", "physics", "math", "philosophy"]
+
+    def say_hi(self):
+        print(f"hello <3. i'm {self.name}")
+
+
+me = Human()
+me.say_hi()
+```
+
+## let's chat,
+
+Because I'm introverted in real-life and extroverted on the internet.
+
+- [Discord](https://discord.com/users/702168378806370375/)
+- [Email](mailto:samarthkulshrestha@protonmail.com)
+- [Twitter](https://twitter.com/zzamarth)
+
+## have a look at my work
+
+- [GitHub](https://github.com/samarthkulshrestha/)
+- Blog coming soon...? Maybe.
+
+## get to know me
+
+For that, you'll have to talk to me, but here are some facts about me.
+
+- My personality type (myers and briggs' 16 types) is [INTP-A](https://www.16personalities.com/intp-personality)
+- Capricorn. (not me tryna fit in)
+- VERY athletic. I **surf the web** for hours on end.
+- I may seem like a free person on the outside, but in my head, I'm very busy.
+  So please don't talk to me. Or do. idk.
+
+### thankyou for visiting, <3
