@@ -1,11 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+    --bg: #141414;
+    --fg: #ffffff;
+    --acc: #01ff70;
+    --code-bg: #242424;
+    --active-link: #2ecc40;
+}
+
 pre,
 code {
-    font-family: Iosevka, Menlo, Monaco, "Courier New", monospace;
+    font-family: monospace;
 }
 
 pre {
     padding: 1rem;
     line-height: 1.25;
+}
+
+pre > code {
+    white-space: pre;
+}
+
+pre {
     overflow-x: scroll;
 }
 
@@ -39,7 +56,6 @@ pre {
 
     pre,
     blockquote {
-        /* border: 1px solid #999; */
         page-break-inside: avoid;
     }
 
@@ -69,23 +85,23 @@ pre {
     }
 }
 
+strong {
+    color: var(--acc);
+}
+
 a,
 a:visited {
-    color: #01ff70;
+    color: var(--acc);
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #2ecc40;
+    color: var(--active-link);
 }
 
 .retro-no-decoration {
     text-decoration: none;
-}
-
-html {
-    font-size: 12px;
 }
 
 @media screen and (min-width: 32rem) and (max-width: 48rem) {
@@ -102,11 +118,28 @@ html {
 
 body {
     line-height: 1.85;
+    font-size: 1.4rem;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--acc) var(--bg);
+}
+
+*::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--acc);
 }
 
 p,
 .retro-p {
-    font-size: 1rem;
     margin-bottom: 1.3rem;
 }
 
@@ -126,8 +159,12 @@ h4,
 h1,
 .retro-h1,
 h2,
-.retro-h2 {
-    color: #01ff70;
+.retro-h2,
+h3,
+.retro-h3 {
+    color: var(--acc);
+    font-weight: 700;
+    font-family: "Cormorant Garamond";
 }
 
 h1,
@@ -166,8 +203,6 @@ small,
     font-size: 0.707em;
 }
 
-/* https://github.com/mrmrs/fluidity */
-
 img,
 canvas,
 iframe,
@@ -180,17 +215,13 @@ textarea {
 
 html,
 body {
-    background-color: #141414;
+    background-color: var(--bg);
     min-height: 100%;
 }
 
-html {
-    font-size: 18px;
-}
-
 body {
-    color: #fafafa;
-    font-family: "Iosevka";
+    color: var(--fg);
+    font-family: "Crimson Pro";
     line-height: 1.45;
     margin: 6rem auto 1rem;
     max-width: 48rem;
@@ -199,7 +230,7 @@ body {
 
 pre,
 code {
-    background-color: #242424;
+    background-color: var(--code-bg);
 }
 
 code {
@@ -207,23 +238,77 @@ code {
 }
 
 blockquote {
-    border-left: 3px solid #01ff70;
+    border-left: 3px solid var(--acc);
     padding-left: 1rem;
 }
 
 li::marker {
-    color: #01ff70;
+    color: var(--acc);
 }
 
 ::selection {
-    background: #01ff70;
-    color: #141414;
+    background: var(--acc);
+    color: var(--bg);
 }
 ::-moz-selection {
-    background: #01ff70;
-    color: #141414;
+    background: var(--acc);
+    color: var(--bg);
 }
 
-strong {
-    color: #01ff70;
+@media screen and (min-width: 32rem) and (max-width: 64rem) {
+    body {
+        padding: 2rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    h1,
+    .retro-h1 {
+        margin-top: 0;
+        font-size: 2.7rem;
+    }
+
+    h2,
+    .retro-h2 {
+        font-size: 2.2rem;
+    }
+
+    h3,
+    .retro-h3 {
+        font-size: 1.8rem;
+    }
+
+    blockquote {
+        padding-left: 1rem;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 32rem) {
+    body {
+        padding: 2rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    h1,
+    .retro-h1 {
+        margin-top: 0;
+        font-size: 2.3rem;
+    }
+
+    h2,
+    .retro-h2 {
+        font-size: 1.8rem;
+    }
+
+    h3,
+    .retro-h3 {
+        font-size: 1.4rem;
+    }
+
+    blockquote {
+        padding-left: 0.7rem;
+        margin-left: 0.7rem;
+    }
 }
