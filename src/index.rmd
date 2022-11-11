@@ -8,31 +8,6 @@ output:
         css: styles.css
 ---
 
-## hey, m8s!
-
-Hi, I'm **Sam**arth (he/him), and I love:
-
-- tech
-- philosophy
-- literature
-- physics
-- art
-- design
-- math
-
-[//]: # "My friends think that I'm an **obsessive perfectionist ignorant brainy** **impulsive awesome brutally-honest versatile anti-social sexy crude** **clear-sighted bi-awakener (xD) nerdy** human."
-
-## get to know me
-
-(kinda)
-
-- My MBTI personality type is [INTP-A](https://www.16personalities.com/intp-personality)
-- [Moratorium](https://en.wikipedia.org/wiki/James_Marcia#Moratorium)
-- I ***need*** creative fulfilment.
-- I'm ***afraid of*** losing the drive that keeps me going.
-- Art makes me ***happy***.
-- Mooosic makes my heart fly; [zamarth @ Spotify](https://open.spotify.com/user/bjilri80ywhparj4zbzndthc9)
-
 ## let's chat
 
 My introversion in real life manifests itself as an extroverted online persona.
