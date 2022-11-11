@@ -1,6 +1,6 @@
 ---
 title: Samarth Kulshrestha
-author: layman software developer / professional **nerd** / lifelong student
+author: layman software developer / professional **nerd**
 output:
     html_document:
         theme: null
